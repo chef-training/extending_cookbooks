@@ -23,11 +23,13 @@ It’s best that learners have some familiarity and comfort with the following:
 
 ## Agenda
 
-1. Introduction
-2. Custom Resources
-3. Creating a Custom Resource
-4. Ohai Plugins
-3. Creating an Ohai Plugin
+* Introduction
+* Custom Resources
+* Creating a Custom Resource
+* Refactoring Custom Resources
+* Ohai Plugins
+* Creating an Ohai Plugin
+* Refactoring Ohai Plugins
 
 ## Published Content
 
