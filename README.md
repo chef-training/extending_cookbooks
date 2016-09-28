@@ -6,6 +6,14 @@ This is the repository dedicated for developing the **Extending Cookbooks**.
 
 Extending Cookbooks takes you beyond the core functionality of a cookbooks. You’ll learn how to create custom resources and Ohai plugins.  With them, you can build any custom tools you need to configure your own infrastructure. At the end of class, you’ll be ready for the unique challenges you face when managing your network.
 
+## Abstract / Description (Chef Intermediate)
+
+Chef Intermediate is an instructor-led course that introduces you to test-driven development and extending your cookbooks.
+
+Building cookbooks with tests will increase the speed at which you work by giving you consistent feedback throughout the entire cookbook development process. Extending your cookbooks with custom resources will increase clarity within your recipes and provide resources that are portable to other cookbooks. While Ohai plugins gather data from your nodes that will aid in more dynamic recipes and extensive reporting.
+
+In this course you will learn how to confidently refactor and extend a cookbook through explanation, demonstration, practice, and discussion. At the end of the course, you will have created a code repository that can be applied to solve the unique challenges you face managing your infrastructure.
+
 ## Learner Requirements
 
 Participants need a network-enabled laptop with a terminal that supports SSH.
