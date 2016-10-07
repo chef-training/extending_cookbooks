@@ -32,12 +32,14 @@ It’s best that learners have some familiarity and comfort with the following:
 ## Agenda
 
 * Introduction
-* Custom Resources
+* Approaches to Extending Resources
+* Why Use Custom Resources
 * Creating a Custom Resource
-* Refactoring Custom Resources
+* Refining a Custom Resource
+* Ohai
 * Ohai Plugins
 * Creating an Ohai Plugin
-* Refactoring Ohai Plugins
+* Tuning Ohai
 
 ## Published Content
 
