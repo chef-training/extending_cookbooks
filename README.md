@@ -34,12 +34,18 @@ It’s best that learners have some familiarity and comfort with the following:
 * Introduction
 * Approaches to Extending Resources
 * Why Use Custom Resources
-* Creating a Custom Resource
-* Refining a Custom Resource
+* Creating a Custom Resource (Labs and Exercises)
+* Refining a Custom Resource (Labs and Exercises)
 * Ohai
 * Ohai Plugins
-* Creating an Ohai Plugin
-* Tuning Ohai
+* Creating an Ohai Plugin (Labs and Exercises)
+* Tuning Ohai (Labs and Exercises)
+
+> Custom Resources and Ohai start with some introductory sections to present
+> some history, comparison, and analysis on why you should pursue this approach.
+> These can be skipped in interest of time, level of pre-existing knowledge of
+> the learners, or faith in your ability to explain an implementation on the
+> fly.
 
 ## Published Content
 
@@ -70,38 +76,10 @@ There are no known issues at this time
 
 ## Workstation Setup
 
-These modules focus on getting learners engaged with the content as quickly as possible. A workstation is provided to the learners.
+These modules focus on getting learners engaged with the content as quickly as possible. A workstation is provided to the learners. Details about what the workstation looks like can be found in [WORKSTATION.md](WORKSTATION.md).
 
-This workstation is currently being managed as a Amazon Machine Instance (AMI). This AMI is managed by Chef through the Training AWS Account.
+For us at Chef this workstation is currently being managed as a Amazon Machine Instance (AMI). This AMI is managed by Chef through the Training AWS Account.
 
 * Extending Cookbooks - CentOS 6.7 - 1.0.0 (ami-????????)
 
-> The AMI was generated with [Packer](https://github.com/chef-training/chefdk-fundamentals-image) and adheres to the following [policy](https://github.com/chef-training/chefdk-image/blob/master/cookbooks/workstations/recipes/extending_cookbooks.rb). It is based on a Marketplace AMI so it cannot be made public. If you would like access to this AMI to deliver training please contact [training@chef.io](mailto:training@chef.io) the request that includes your Amazon Account Id.
-
-### Creating the Workstation
-
-> An chef recipe that automates the creation of the workstation can be found in the [ChefDK Image](
-https://github.com/chef-training/chefdk-image/blob/master/cookbooks/workstations/recipes/extending_cookbooks.rb
-) project
-
-* Installation of ChefDK
-
-* Create a user named 'chef' with the password 'chef'
-
-* Ensure the yum package repository is up-to-date
-
-```
-$ yum update -y
-```
-
-* INSTALL various editors and tools that the participant will install: vim; emacs; nano; tree; and git.
-
-* Clone the [Extending Cookbooks Repository](https://github.com/chef-training/extending_cookbooks-repo)
-
-* Install [Docker on CentOS](https://docs.docker.com/engine/installation/centos/)
-
-* Allow Password Authentication
-
-* Disable the iptables service
-
-* Disable SELINUX
+The AMI was generated with [Packer](https://github.com/chef-training/chefdk-fundamentals-image) and adheres to the following [policy](https://github.com/chef-training/chefdk-image/blob/master/cookbooks/workstations/recipes/extending_cookbooks.rb). It is based on a Marketplace AMI so it cannot be made public. If you would like access to this AMI to deliver training please contact [training@chef.io](mailto:training@chef.io) the request that includes your Amazon Account Id.
