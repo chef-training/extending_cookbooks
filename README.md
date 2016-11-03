@@ -4,15 +4,7 @@ This is the repository dedicated for developing the **Extending Cookbooks**.
 
 ## Abstract / Description
 
-Extending Cookbooks takes you beyond the core functionality of a cookbooks. You’ll learn how to create custom resources and Ohai plugins.  With them, you can build any custom tools you need to configure your own infrastructure. At the end of class, you’ll be ready for the unique challenges you face when managing your network.
-
-## Abstract / Description (Chef Intermediate)
-
-Chef Intermediate is an instructor-led course that introduces you to test-driven development and extending your cookbooks.
-
-Building cookbooks with tests will increase the speed at which you work by giving you consistent feedback throughout the entire cookbook development process. Extending your cookbooks with custom resources will increase clarity within your recipes and provide resources that are portable to other cookbooks. While Ohai plugins gather data from your nodes that will aid in more dynamic recipes and extensive reporting.
-
-In this course you will learn how to confidently refactor and extend a cookbook through explanation, demonstration, practice, and discussion. At the end of the course, you will have created a code repository that can be applied to solve the unique challenges you face managing your infrastructure.
+Extending Cookbooks takes you beyond the core functionality of cookbooks. You’ll learn how to create custom resources and Ohai plugins.  With them, you can build any custom tools you need to configure your own infrastructure. At the end of class, you’ll be ready for the unique challenges you face when managing your network.
 
 ## Learner Requirements
 
@@ -34,12 +26,12 @@ It’s best that learners have some familiarity and comfort with the following:
 * Introduction
 * Approaches to Extending Resources
 * Why Use Custom Resources
-* Creating a Custom Resource (Labs and Exercises)
-* Refining a Custom Resource (Labs and Exercises)
+* Creating a Custom Resource
+* Refining a Custom Resource
 * Ohai
 * Ohai Plugins
-* Creating an Ohai Plugin (Labs and Exercises)
-* Tuning Ohai (Labs and Exercises)
+* Creating an Ohai Plugin
+* Tuning Ohai
 
 > Custom Resources and Ohai start with some introductory sections to present
 > some history, comparison, and analysis on why you should pursue this approach.
@@ -55,7 +47,8 @@ The latest published version of these training materials are located as follows:
 
 The participant guide is a PDF that contains the notes export from the content slides.
 
-This content can be found here: CONTENT IS CURRENTLY IN DEVELOPMENT
+This content can be found here: https://opscode.box.com/v/extend-cookbook-participant
+
 ### Instructor Kit
 
 * All slides for each module
@@ -64,7 +57,7 @@ This content can be found here: CONTENT IS CURRENTLY IN DEVELOPMENT
 
 * Participant Guide
 
-This content can be found here: CONTENT IS CURRENTLY IN DEVELOPMENT
+This content can be found here: https://opscode.box.com/v/extend-cookbook-instructor-kit
 
 ### Screencast Videos
 
@@ -72,7 +65,7 @@ This content can be found here: CONTENT IS CURRENTLY IN DEVELOPMENT
 
 ## Known Issues
 
-There are no known issues at this time
+There are no known issues at this time.
 
 ## Workstation Setup
 
