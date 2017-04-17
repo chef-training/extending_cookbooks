@@ -6,7 +6,7 @@ https://github.com/chef-training/chefdk-image/blob/master/cookbooks/workstations
 
 * Installation of ChefDK
 
-* Create a user named 'chef' with the password 'chef'
+* Create a user named 'chef' with the password 'Cod3Can!'
 
 * Ensure the yum package repository is up-to-date
 
